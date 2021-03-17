@@ -199,6 +199,7 @@ select {
 
 .beta-link:hover {
     text-decoration: underline;
+    background-color: #d1cdcd;
 }
 
 .images {
@@ -403,6 +404,7 @@ main .container {
 
 .call-center-link:hover {
     text-decoration: underline;
+    background-color: #d1cdcd;
 }
 
 
@@ -596,11 +598,11 @@ time {
     flex-direction: row;
     justify-content: space-between;
     margin: 80px 0px;
+    padding-bottom: 80px;
 }
 
-.girl-image {
+.girl-img {
     width: 25%;
-
 }
 
 .internet-infos {
@@ -610,7 +612,7 @@ time {
 .internet-title {
     font-style: normal;
     font-weight: 600;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 44px;
     text-align: center;
     letter-spacing: 0.04em;
@@ -641,10 +643,18 @@ time {
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
-    margin-left: 150px;
+    margin-left: 130px;
     text-align: center;
     letter-spacing: 0.04em;
     text-decoration: none;
     color: #000000;
 
+}
+
+.internet-link:hover {
+    background-color: #d1cdcd;
+}
+
+footer .container {
+    margin: 50px 0px;
 }
